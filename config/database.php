@@ -2,7 +2,7 @@
 	//set connection variables
 	$host = "localhost";
 	$username = "root";
-	$password = "";
+	$password = "root";
 	$db_name = "db_ticket_booking"; //database name
 	//connect to mysql server
 	$mysqli = new mysqli($host, $username, $password, $db_name);
